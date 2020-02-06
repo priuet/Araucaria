@@ -358,15 +358,10 @@ a.more {
 }
 
 .bottom-banner {
-	height: 500px;
 	margin: 0 50px;
 	display: inline-flex;
-	flex-direction: row;
-    flex-flow: row wrap;
-    align-items: stretch;
-    justify-content: center;
+    justify-content: space-evenly;
     box-sizing: border-box;
-    font-style: normal;
 }
 .bottom-banner__image {
 	position: relative;
